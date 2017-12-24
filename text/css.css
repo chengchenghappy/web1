@@ -1,0 +1,124 @@
+/*整体*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	height: 1280px;
+	width: 1200px;
+	margin:0 auto;
+	background-image: url(imgs/bg2.jpg);
+	background-repeat: repeat-x;
+}
+/*导航条*/
+.banner{
+	height: 90px;
+	width: 1200px;
+	margin: 0 auto;
+	background-image: url(imgs/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+}
+.banner ul{
+	list-style:none;
+	position: relative;
+	z-index: 1;
+}
+.banner ul li{
+	height: 55px;
+	width: 120px;
+	float:right;
+}
+.banner ul a:link,.banner ul a:visited{
+	color: black;
+	display:block;
+	width:110px;
+	text-align:center;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 15px;
+	line-height: 90px;
+}
+.banner ul a:hover{
+	background:orange;
+}
+.banner ul li ul li{
+	background:orange;
+}
+.banner li ul{
+	display:none;
+}
+.banner li.subMenuShow ul{
+	display:block;
+}
+/*图片*/
+.pic{
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.pic a{
+	display: none;
+}
+/*轮播效果*/
+#content{
+	height: 80px;
+	width: 1200px;
+	margin-top: 10px;
+	white-space: nowrap;  
+	overflow:hidden;
+}
+#content #p,#content #null{
+	height: 80px;
+	font-weight: bolder;
+	font-size: 20px;
+	color: red;
+	line-height: 80px;
+}
+/*最后*/
+.footer{
+	height: 510px;
+	width: 1200px;
+	margin-top: 10px;
+	background-image: url(imgs/bg1.jpg);
+}
+.footer ul {
+	list-style:none;
+}
+.footer #pa{
+	height: 300px;
+	width: 720px;
+	font-size: 20px;
+	line-height: 40px;
+	float: right;
+	position: relative;
+	bottom: 500px;
+}
+.footer #x{
+	float: right;
+	position: relative;
+	bottom: 530px;
+	margin-right: 205px;
+}
+.footer .sub{
+	position: relative;
+	bottom: 200px;
+	left: 1000px;
+}
+.footer .sub form input{
+	margin: 10px;
+}
+/*尾部*/
+.last{
+	height: 80px;
+	width: 1200px;
+	margin: 0 auto;
+	background-color: gray;
+}
+.last p{;
+	font-size: 15px;
+	line-height: 80px;
+	margin-left: 190px;
+}
